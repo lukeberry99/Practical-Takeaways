@@ -545,7 +545,7 @@
     <script type="text/javascript" src="assets/js/scripts.js"></script>
     <script>
       var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ? true : false;var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ? true : false;
-      if(!isMobile) {
+      if(isMobile) {
         $('.animated').removeClass('animated');
         $('.hiding').removeClass('hiding');
       }
